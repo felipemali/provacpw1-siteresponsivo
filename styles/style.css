@@ -47,8 +47,10 @@
 }
 #sobre-mim{    
     width: 18%;
+    height: 450px;
     background-color: #e2e2e2;
     padding-bottom: 0.7rem;
+    
 }
 #sobre-mim h2{
     text-align: center;
@@ -61,12 +63,14 @@
     width: 150px;
     height: 150px;
     display: block;
-    margin: 0.6rem auto 0.5rem auto;   
+    margin: 1.5rem auto 0.5rem auto;   
+    
 }
 #sobre-mim p{
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     padding-left: 0.5rem;
+    padding-top: 2rem;
     font-family: 'regular';
 }
 #footer{  
@@ -74,7 +78,7 @@
     background-color: #885958;
     padding-left: 1rem;
     min-height: 100px;
-    color: #fff;
+    color: #fff;           
 }
 #footer span{
     font-family: 'regular';
@@ -116,7 +120,7 @@
     }
     #content p{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     padding-left: 0.5rem;
     }
     
@@ -125,11 +129,17 @@
         margin-top: 2rem;    
         padding-bottom: 1rem;
     }
+    #sobre-mim p{
+        font-size: 1.3rem;
+    }
+    #sobre-mim h2{
+        margin-top: 1.7rem;
+    }
     #sobre-mim img{ 
         width: 150px;
         height: 150px;
         display: block;
-        margin: 0.6rem auto 0.5rem auto;   
+        margin: 1.7rem auto 0.5rem auto;   
     }
     #footer{   
       text-align: center;
